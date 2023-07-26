@@ -1,0 +1,461 @@
+/*  googl efront  */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /*  gogle front end  */
+
+/*  default style  start */
+h1,h2,h3,h4,h5,h6,p,span,strong,a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+hr{
+    color: #30ab6d;
+}
+
+.fiver-logo{
+    max-width: 100%;
+    width: 25px;
+    height: 100%;
+}
+/*  default style   end  */
+
+/*  nav css start */
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 250 250 / 90%);
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.sticky-lg-top {
+    background-color: #202020
+}
+.social-buton i{
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    line-height:50px ;
+    text-align: center;
+    background-color: #979595;
+    margin: 10px;
+    color: rgb(43, 89, 230);
+    border-radius: 10px;
+}
+.social-buton-b a{
+    border-radius: 10px;
+    padding: 18px 30px ;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #FFAF29;
+    color: whitesmoke;
+    font-weight: 600;
+    display: inline-block;
+    transition: .4s ease-in-out;
+   
+}
+.social-buton-b a:hover{
+    background-color: #30ab6d;
+    transition: .4s ease-in-out;
+}
+
+
+.navbar-brand  img{
+    max-width: 100%;
+    width: 200px;
+}
+/*  nav css  end  */
+
+/*  hero section css start */
+.hero-section{
+    background-color: #202020;
+}
+.container-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-left-content h6{
+    color: #64F4AB;
+    margin-bottom: 1rem;
+}
+.hero-left-content h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.hero-left-content p{
+  margin-bottom: 2rem;
+}
+.hero-right-social{
+    background: url(./img/sonjoy3.png) center no-repeat;
+    background-position: center;
+}
+.hero-right-social img{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*  hero section css end  */
+
+
+/*  service section css start */
+.grid-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     grid-gap: 1rem;
+}
+
+.service-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.service-card {
+    background-color: #202020;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 10px 50px 0px ;
+    transition: .4S;
+     
+}
+.service-card:hover{
+    background-color: #30ab6d;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-content i{
+    
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background-color: #30ab6d;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-emphasis: circle;
+    border-radius: 50%;
+}
+.card-content h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.card-content p{
+    margin-bottom: 1rem;
+}
+.service-content h6{
+    margin-bottom: 1rem;
+    color: #30ab6d;
+}
+.service-content h1{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.service-content p{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+/*  service section css end  */
+
+/*  compain css start */
+
+.compain-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    grid-gap: 2rem;
+
+}
+.compain-content h6{
+    color: #30ab6d;
+}
+.compain-content h3{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.compain-content p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.compain-content a{
+text-decoration: none;
+font-size: 2rem;
+color: #FFAF29;
+display: block;
+}
+
+ .img-object {
+    background: #424246;
+    height: 535px;
+    width: 650px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 0% 0% 0% 50%;
+ }
+ .img-object2 {
+    background: #424246;
+    height: 535px;
+    width: 650px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 10% 10% 20% 10%;
+ }
+
+ .img-object3 {
+    background: #424246;
+    height: 635px;
+    width: 750px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 0% 0% 0% 50%;
+ }
+
+
+.ppc-overview img{
+    max-width: 100%;
+}
+
+.ppc-all-btn a{
+    padding: 15px 30px ;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    transition: .4s;
+    margin-top: 3rem;
+}
+.ppc-all-btn a:hover{
+    
+    background-color: #30ab6d;
+
+}
+/*  compain css  end  */
+
+/*  client css srtaert */
+
+.client-wraper{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-gap: 1rem;
+
+}
+
+.client-card{
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 200px;
+    border-radius: 10% 20% 0% 20%;
+}
+.client-card h1{
+    font-size: 3rem;
+    color: #30ab6d;
+}
+.client-card h4{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+/*  client css end  */
+
+/*  client2 css start */
+.client2-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.client2-left-content i{
+    font-size: 4rem;
+    color: #30ab6d;
+}
+.client2-left-content h4{
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+.client2-left-content h3{
+    color: #30ab6d;
+    font-weight: bold;
+}
+.img-object4 {
+    background: #424246;
+    height: 535px;
+    width: 450px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 50%  10% 50% 10%;
+ }
+ .img-object5 {
+    background: #424246;
+    height: 535px;
+    width: 450px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 50%  10% 50% 10%;
+ }
+
+ .client2-left-img img{
+    border-radius: 10%;
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+ }
+
+/*  client2 css end  */
+
+
+/*  lets work css start */
+
+.lets-work {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.lets-work:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lets-work h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+/*  lets work css start */
+/*  footer section start */
+.footer{
+    background-color: #1e1e1e; 
+}
+
+.footer-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.footer-icon i{
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    color: #FFAF29;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #30ab6d;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: .4s;
+}
+.footer-icon i:hover{
+    background-color: #FFAF29;
+    color: #424246;
+}
+
+.footer-text h5{
+    font-size: 1rem;
+}
+
+.reserve{
+    font-size: 10px;
+}
+/*  footer sections end */
+
+
+
+
+
+
+
+
+/* ............................ */
+/*  contact css start */
+.contact-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+}
+
+.contact-social{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.contact-social i{
+     margin-bottom: 2rem;
+    background-color: #30ab6d;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.contact{
+    background-color: #777978;
+    width: 200px;
+    text-align: center;
+    height:250px;
+    border-radius: 0% 10% 00% 10%;
+}
+.contact-content h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.contact-content h5{
+    color:#30ab6d ;
+    margin-right: 1rem;
+}
+.contact-content p{
+    margin-bottom: 1rem;
+}
+.contact-form{
+    border-radius: 10px;
+    padding-left: 2rem;
+    background-color: #777978;
+    width: 100%;
+    height: 650px;
+    
+}
+.contact-form h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+input{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 150px;
+    cursor: pointer;
+
+}
+textarea{
+    padding: 10px 120px;
+    border: none;
+}
+/*  contact css end  */
+
+
+
